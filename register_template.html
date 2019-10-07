@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Forum DAW</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index_template.html">Home</a>
+			</div>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="register_template.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+				<li><a href="login_template.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			</ul>
+		</div>
+	</nav>
+
+	<div class="container" style="border: 1px black">    
+		<div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+			<div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="panel-title" align="center">Sign Up</div>
+                        </div>  
+                        <div class="panel-body">
+                            <form id="signupform" class="form-horizontal" role="form">   
+                                <div class="form-group">
+                                    <label for="name" class="col-md-3 control-label">Name</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="Name" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                    
+                                <div class="form-group">
+                                    <label for="email" class="col-md-3 control-label">E-mail</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="E-mail" placeholder="Enter a valid E-mail">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-md-3 control-label">Password</label>
+                                    <div class="col-md-9">
+                                        <input type="password" class="form-control" name="password" placeholder="Enter your Password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password" class="col-md-3 control-label">Confirm Password</label>
+                                    <div class="col-md-9">
+                                    	<input type="password" class="form-control" name="confirmpassword" placeholder="Confirm your Password">
+                                    </div>
+                                </div>
+
+                                <div class="form-group" align="center">
+                                	<button id="btn-signup" type="button" class="btn btn-info">Go</button>
+                                	<button id="btn-signup" type="button" class="btn btn-danger">Clear</button>
+                                </div>   
+                                <div class="form-group">
+                                	<div class="col-md-12 control">
+                                		<div style="border-top: 1px solid#888; padding-top:15px; font-size:85%" >
+                                			Already have an account?
+                                			<a href="login_template.html">
+                                				Login Here
+                                			</a>
+                                		</div>
+                                	</div>                          
+                                </form>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+
+<footer style="position: fixed;left: 0;bottom: 0;width: 100%;">
+  <p style="text-align:left;margin-left: 10px;">
+    2019 Desenvolvimente de Aplicações Web
+    <span style="float:right;margin-right: 10px;">
+      Design by: a57620
+    </span>
+  </p>
+</footer>
+
+</body>
+</html>
